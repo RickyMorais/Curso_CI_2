@@ -33,5 +33,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: rickysm/go_ci:${{github.ref_name}}
+        tags: rickysm/go_ci:${{github.run_number}}
           
